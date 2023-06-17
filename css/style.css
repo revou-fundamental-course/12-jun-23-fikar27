@@ -64,5 +64,16 @@ button:active {
     margin-top: 10px;
 }
 
+.deskripsi {
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+
 
 
