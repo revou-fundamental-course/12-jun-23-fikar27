@@ -46,7 +46,7 @@ button:active {
 
 #inputfield {
     outline: none;
-    max-width: 500px;
+    width: 20em;
     border-radius: 10px;
     padding: 10px;
     border: solid rgb(161, 161, 161);
@@ -59,7 +59,7 @@ button:active {
     padding: 10px;
     border: solid rgb(161, 161, 161);
     margin: 0px auto;
-    max-width: 500px;
+    width: 20em;
 }
 
 #result:focus {
@@ -68,7 +68,7 @@ button:active {
 }
 
 #kolomcara {
-    width: 600px;
+    width: 20em;
     height: 30px;
     margin: auto;
 }
