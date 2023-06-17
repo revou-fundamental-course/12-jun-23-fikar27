@@ -21,8 +21,8 @@ label {
 }
 
 button {
-    border-radius: 5px;
-    padding: 10px 20px;
+    border-radius: 3px;
+    padding: 10px 10px;
     background-color: black;
     color: white;
     cursor: pointer;
@@ -46,9 +46,11 @@ button:active {
 
 #inputfield {
     outline: none;
+    width: 500px;
     border-radius: 10px;
     padding: 10px;
     border: solid rgb(161, 161, 161);
+    margin: 0px auto;
 }
 
 #result {
@@ -56,11 +58,19 @@ button:active {
     border-radius: 10px;
     padding: 10px;
     border: solid rgb(161, 161, 161);
+    margin: 0px auto;
+    width: 500px;
 }
 
 #result:focus {
     border: solid rgb(0, 0, 0);
 
+}
+
+#kolomcara {
+    width: 500px;
+    height: 50px;
+    margin: 0px auto;
 }
 
 /* CLASS */
