@@ -1,8 +1,10 @@
+/* prepare variabel */
 let suhuAsal = document.querySelector(".intext");
 let suhuHasil = document.querySelector(".outtext");
 let cara = document.querySelector(".kolomnya");
 let rumusSekarang = "c-f";
 
+/* fungsi tombol konvert */
 function celkefah(){
     if(rumusSekarang == "c-f"){
         let x = Number(suhuAsal.value);
@@ -29,6 +31,7 @@ function celkefah(){
     }
 }
 
+/* fungsi tombol revers */
 function reverse(){
     if(rumusSekarang == "c-f"){
         rumusSekarang = "f-c";
@@ -41,12 +44,14 @@ function reverse(){
     }
 }
 
+// fungsi tombol reset 
 function reset(){
     suhuAsal.value = "";
     suhuHasil.value = "";
     cara.value = "";
 }
 
+/* fungsi tambahan */
 suhuAsal.addEventListener("keypress",(key)=>{
     if(key.charCode == "13"){
         key.preventDefault();
