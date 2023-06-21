@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <title>Konverter Suhu</title>
-    <script src="js/index.js"></script>
+    
 </head>
 <body>
     <header>
@@ -23,14 +23,14 @@
     <label for="celcius"><center>Celcius (°C)</center></label>
     <section class="input">
         <div class="suhu1">
-            <textarea id="input_angka" name="input_angka" class="intext" autofocus="" tabindex="1" style="background-color: rgb(255, 255, 255);"></textarea>
+            <textarea placeholder="Masukkan Angka" id="input_angka" name="input_angka" class="intext" autofocus="" tabindex="1" style="background-color: rgb(255, 255, 255);"></textarea>
         </div>
 
     <!-- TOMBOL -->
         <div class="areatombol">
-            <button onclick="celkefah">KONVERT</button>
-            <button onclick="reset">RESET</button>
-            <button onclick="location.href='';">REVERSE</button>
+            <button onclick="celkefah()">KONVERT</button>
+            <button onclick="reset()">RESET</button>
+            <button onclick="reverse()">REVERSE</button>
         </div>
 
     <!-- OUTPUT -->
@@ -42,15 +42,16 @@
     <!-- CARA HITUNG -->
     <label for="carahitung"><center>CARA HITUNG</center></label>
         <div class="caranya">
-            <textarea id="kolom_cara" class="kolomnya" readonly="" tabindex="5"></textarea>
+            <textarea id="kolom_cara" class="kolomnya" readonly=""></textarea>
         </div>
-
-
-
-
-
+    </section>
+    <section class="c-f">
 
     </section>
+    <section class="f-c d-none">
+        
+    </section>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
